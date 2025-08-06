@@ -178,10 +178,6 @@ const API_SITES = {
       api: 'https://hhzyapi.com/api.php/provide/vod/',
       name: '豪华资源',
     },
-    huya: {
-      api: 'https://www.huyaapi.com/api.php/provide/vod/',
-      name: '虎牙',
-    },
 	sdzy: {
       api: 'http://sdzyapi.com/api.php/provide/vod/',
       name: '闪电资源',
