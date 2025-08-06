@@ -106,6 +106,18 @@ const API_SITES = {
         api: 'https://ikunzyapi.com/api.php/provide/vod/',
         name: 'iKun资源'
     },
+	subo: {
+        api: 'https://subocaiji.com/api.php/provide/vod',
+        name: '速播资源'
+    },
+    fczy: {
+        api: 'https://api.fczy888.me/api.php/provide/vod',
+        name: '蜂巢资源'
+    },
+    ukzy: {
+        api: 'https://api.ukuapi88.com/api.php/provide/vod',
+        name: 'U酷资源'
+    },
     lzi: {
         api: 'https://cj.lziapi.com/api.php/provide/vod/',
         name: '量子资源站'
@@ -118,9 +130,17 @@ const API_SITES = {
         api: 'https://api.1080zyku.com/inc/apijson.php',
         name: '1080资源库'
     },
+	huya: {
+      api: 'https://www.huyaapi.com/api.php/provide/vod',
+      name: '虎牙资源',
+    },
     plzy: {
         api: 'https://p2100.net/api.php/provide/vod/',
         name: '飘零资源'
+    },
+	xinlang: {
+	  api: 'https://api.xinlangapi.com/xinlangapi.php/provide/vod',
+      name: '新浪资源',
     },
     lovedan: {
         api: 'https://lovedan.net/api.php/provide/vod/',
@@ -142,6 +162,10 @@ const API_SITES = {
         api: 'https://www.hongniuzy2.com/api.php/provide/vod/',
         name: '红牛资源'
     },
+	jyzy: {
+      api: 'https://jyzyapi.com/provide/vod/',
+      name: '金鹰资源',
+    },
     suoni: {
         api: 'https://suoniapi.com/api.php/provide/vod/',
         name: '索尼资源'
@@ -149,6 +173,18 @@ const API_SITES = {
     taopian: {
         api: 'https://taopianapi.com/cjapi/mc10/vod/',
         name: '淘片'
+    },
+	hhzy: {
+      api: 'https://hhzyapi.com/api.php/provide/vod/',
+      name: '豪华资源',
+    },
+    huya: {
+      api: 'https://www.huyaapi.com/api.php/provide/vod/',
+      name: '虎牙',
+    },
+	sdzy: {
+      api: 'http://sdzyapi.com/api.php/provide/vod/',
+      name: '闪电资源',
     },
     nnzy: {
         api: 'https://api.niuniuzy.me/api.php/provide/vod/',
