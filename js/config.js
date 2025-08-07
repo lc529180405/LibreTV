@@ -130,18 +130,18 @@ const API_SITES = {
         api: 'https://api.1080zyku.com/inc/apijson.php',
         name: '1080资源库'
     },
-	//huya: {
-    //  api: 'https://www.huyaapi.com/api.php/provide/vod',
-    //  name: '虎牙资源',
-    //},
+	seacms: {
+      api: 'https://www.seacms.org/zyapi.php',
+      name: '海洋资源',
+    },
     plzy: {
         api: 'https://p2100.net/api.php/provide/vod/',
         name: '飘零资源'
     },
-	//xinlang: {
-	//  api: 'https://api.xinlangapi.com/xinlangapi.php/provide/vod',
-    //  name: '新浪资源',
-    //},
+	sjzy: {
+	  api: 'https://www.394tv.com/api.php/provide/vod/',
+      name: '三九影视',
+    },
     lovedan: {
         api: 'https://lovedan.net/api.php/provide/vod/',
         name: 'lovedan'
@@ -162,10 +162,10 @@ const API_SITES = {
         api: 'https://www.hongniuzy2.com/api.php/provide/vod/',
         name: '红牛资源'
     },
-	//jyzy: {
-    //  api: 'https://jyzyapi.com/provide/vod/',
-    //  name: '金鹰资源',
-    //},
+	gszy: {
+      api: 'https://api.guangsuapi.com/api.php/provide/vod/',
+      name: '光速资源',
+    },
     suoni: {
         api: 'https://suoniapi.com/api.php/provide/vod/',
         name: '索尼资源'
@@ -177,10 +177,6 @@ const API_SITES = {
 	hhzy: {
       api: 'https://hhzyapi.com/api.php/provide/vod/',
       name: '豪华资源',
-    },
-	sdzy: {
-      api: 'http://sdzyapi.com/api.php/provide/vod/',
-      name: '闪电资源',
     },
     nnzy: {
         api: 'https://api.niuniuzy.me/api.php/provide/vod/',
@@ -261,14 +257,17 @@ const API_SITES = {
 	// naixx: {
     //     api: 'https://naixxzy.com/api.php/provide/vod/',
     //     name: '奶香香|AV'
+	//     adult: true
     // },
     // xxibao: {
     //     api: 'https://www.xxibaozyw.com/api.php/provide/vod/',
     //     name: '性细胞|AV'
+	//     adult: true
     // },
     // danaizi: {
     //     api: 'https://apidanaizi.com/api.php/provide/vod/',
     //     name: '大奶子|AV'
+	//     adult: true
     // },
     // siwa: {
     //     api: 'http://siwazyw.tv/api.php/provide/vod/',
@@ -348,6 +347,61 @@ const API_SITES = {
     // pgxdy: {
     //     api: 'https://www.pgxdy.com/api/xml.php',
     //     name: '黄AV资源',
+	//     adult: true
+    //},
+	// gayapi: {
+    //     api: 'https://gayapi.com/api.php/provide/vod/',
+    //     name: 'GAY资源',
+	//     adult: true
+    //},
+	// thzy: {
+    //     api: 'https://thzy1.me/api.php/provide/vod/',
+    //     name: '桃花资源',
+	//     adult: true
+    //},
+	// btzy: {
+    //     api: 'https://8day.icu/api.php/provide/vod/',
+    //     name: '八天资源',
+	//     adult: true
+    //},
+	// xxavs: {
+    //     api: 'https://xxavs.com/api.php/provide/vod/',
+    //     name: '湿乐园',
+	//     adult: true
+    //},
+	// uezy: {
+    //     api: 'https://a.uezy.pw/api.php/provide/vod/',
+    //     name: '优异资源',
+	//     adult: true
+    //},
+	// jmzy: {
+    //     api: 'https://to.to-long.com/api.php/provide/vod/',
+    //     name: '橘猫资源',
+	//     adult: true
+    //},
+	// smzy: {
+    //     api: 'https://caiji.semaozy.net/inc/apijson_vod.php',
+    //     name: '色猫资源',
+	//     adult: true
+    //},
+	// dd: {
+    //     api: 'https://api.ddapi.cc/api.php/provide/vod/',
+    //     name: '滴滴资源',
+	//     adult: true
+    //},
+	// sexng: {
+    //     api: 'https://api.sexnguon.com/api.php/provide/vod/',
+    //     name: '色南国资源',
+	//     adult: true
+    //},
+	// vnzy: {
+    //     api: 'https://vnzyz.com/api.php/provide/vod/',
+    //     name: '越南资源',
+	//     adult: true
+    //},
+	// jyav: {
+    //     api: 'https://91av.cyou/api.php/provide/vod/',
+    //     name: '91视频',
 	//     adult: true
     //},
 
