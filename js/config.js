@@ -27,9 +27,58 @@ const API_SITES = {
         name: '电影天堂资源',
         detail: 'http://caiji.dyttzyapi.com'
     },
-    ruyi: {
-        api: 'https://cj.rycjapi.com/api.php/provide/vod/',
-        name: '如意资源'
+	tenxun: {
+        api: 'http://110.42.33.133:12121/api.php/provide/vod/',
+        name: '腾讯资源'
+    },
+	okzy: {
+        api: 'http://api.okzyw.net/api.php/provide/vod/',
+        name: 'OK资源'
+    },
+	okzy: {
+        api: 'http://api.okzyw.net/api.php/provide/vod/',
+        name: 'OK资源'
+    },
+    yzzy: {
+        api: 'https://api.yzzy-api.com/inc/api_mac10_all.php',
+		备用api: 'https://api.yzzy-api.com/inc/apijson.php',
+        name: '优质资源'
+    },
+	mtzy: {
+        api: 'https://caiji.maotaizy.cc/api.php/provide/vod',
+        name: '茅台资源'
+    },
+	myzy: {
+        api: 'https://api.maoyanapi.top/api.php/provide/vod',
+        name: '猫眼资源'
+    },
+	jazy: {
+        api: 'http://154.219.117.232:9981/jacloudapi.php/provide/vod',
+        name: '建安资源'
+    },
+	xmyzy: {
+        api: 'https://vs.okcdn100.top/api.php/provide/vod/',
+        name: '小绵羊资源'
+    },
+	wyzy: {
+        api: 'https://www.wyvod.com/api.php/provide/vod/',
+        name: '无忧资源'
+    },
+	kpzy: {
+        api: 'https://bf.xoxowin86cisyap.com/api.php/provide/vod',
+        name: '看片资源'
+    },
+	hhzy: {
+        api: 'https://hhzyapi.com/api.php/provide/vod/',
+        name: '火狐资源'
+    },
+	klzy: {
+        api: 'https://lz.118318.xyz/api.php/provide/vod/',
+        name: '快龙资源'
+    },
+	dbzy: {
+        api: 'https://caiji.dbzy.tv/api.php/provide/vod/',
+        name: '独播资源'
     },
     bfzy: {
         api: 'https://bfzyapi.com/api.php/provide/vod/',
@@ -154,18 +203,27 @@ const API_SITES = {
         api: 'https://api.apibdzy.com/api.php/provide/vod/',
         name: '百度资源'
     },
-    yhzy: {
-        api: 'https://m3u8.apiyhzy.com/api.php/provide/vod/',
-        name: '樱花资源'
-    },
     hongniu: {
         api: 'https://www.hongniuzy2.com/api.php/provide/vod/',
         name: '红牛资源'
     },
-	//gszy: {
-    //  api: 'https://api.guangsuapi.com/api.php/provide/vod/',
-    //  name: '光速资源',
-    //},
+	gszy: {
+        api: 'https://api.guangsuapi.com/api.php/provide/vod/',
+        name: '光速资源',
+    },
+	xlzy: {
+        api: 'https://api.xinlangapi.com/xinlangapi.php/provide/vod/',
+        name: '新浪资源',
+    },
+	huya: {
+        api: 'https://www.huyaapi.com/api.php/provide/vod/',
+        name: '虎牙资源',
+    },
+	jinyingzy: {
+      api: 'https://jinyingzy.com/provide/vod/',
+	  备用地址: '1:https://jyzyapi.com/provide/vod/2:https://jyzyapi.com/provide/vod/from/jinyingm3u8/,3:https://jinyingzy.com/api.php/provide/vod/',
+      name: '金鹰资源',
+    },
     suoni: {
         api: 'https://suoniapi.com/api.php/provide/vod/',
         name: '索尼资源'
