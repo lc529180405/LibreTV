@@ -39,11 +39,11 @@ const API_SITES = {
         api: 'http://api.okzyw.net/api.php/provide/vod/',
         name: 'OK资源'
     },
-    yzzy: {
-        api: 'https://api.yzzy-api.com/inc/api_mac10_all.php',
-		备用api: 'https://api.yzzy-api.com/inc/apijson.php',
-        name: '优质资源'
-    },
+    //yzzy: {
+    //    api: 'https://api.yzzy-api.com/inc/api_mac10_all.php',
+	//	备用api: 'https://api.yzzy-api.com/inc/apijson.php',
+    //    name: '优质资源'
+    //},
 	mtzy: {
         api: 'https://caiji.maotaizy.cc/api.php/provide/vod',
         name: '茅台资源'
@@ -215,10 +215,10 @@ const API_SITES = {
         api: 'https://api.xinlangapi.com/xinlangapi.php/provide/vod/',
         name: '新浪资源',
     },
-	huya: {
-        api: 'https://www.huyaapi.com/api.php/provide/vod/',
-        name: '虎牙资源',
-    },
+	//huya: {
+    //    api: 'https://www.huyaapi.com/api.php/provide/vod/',
+    //    name: '虎牙资源',
+    //},
 	jinyingzy: {
       api: 'https://jinyingzy.com/provide/vod/',
 	  备用地址: '1:https://jyzyapi.com/provide/vod/2:https://jyzyapi.com/provide/vod/from/jinyingm3u8/,3:https://jinyingzy.com/api.php/provide/vod/',
